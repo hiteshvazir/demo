@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "<h1>This is my First flask application </h1>"
+    return "<h1>This Is My First flask application </h1>"
 
 
 if __name__ == "__main__":
